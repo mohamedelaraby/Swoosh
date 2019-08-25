@@ -18,39 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="ax4-c5-BDl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="ax4-c5-BDl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IM-gs-hDf">
-                                <rect key="frame" x="39" y="143" width="296" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IM-gs-hDf">
+                                <rect key="frame" x="39" y="143" width="296" height="64.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="47"/>
                                 <color key="textColor" red="0.9922674298286438" green="0.98422330617904663" blue="0.97533315420150757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQU-tN-J0N">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQU-tN-J0N">
                                 <rect key="frame" x="39" y="204" width="296" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
                                 <color key="textColor" red="0.9922674298286438" green="0.98422330617904663" blue="0.97533315420150757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a team in your city &amp; dominate the leaguea" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUy-DI-yn6">
-                                <rect key="frame" x="39" y="283" width="289" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the leaguea" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUy-DI-yn6">
+                                <rect key="frame" x="39" y="277.5" width="289" height="41"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
                                 <color key="textColor" red="0.9922674298286438" green="0.98422330617904663" blue="0.97533315420150757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-xp-8oo">
-                                <rect key="frame" x="113" y="28" width="148" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-xp-8oo">
+                                <rect key="frame" x="128" y="40" width="119" height="20"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6g-EZ-nZu" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="588" width="343" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6g-EZ-nZu" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
+                                <rect key="frame" x="16" y="607" width="343" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.44675727739726029" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ezY-uo-D8W"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="23"/>
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,8 +55,34 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wQU-tN-J0N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="0hU-kz-eIY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4IM-gs-hDf" secondAttribute="trailing" constant="40" id="2ye-rc-JXc"/>
+                            <constraint firstItem="4IM-gs-hDf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="3wb-HU-Kkk"/>
+                            <constraint firstItem="eUy-DI-yn6" firstAttribute="top" secondItem="wQU-tN-J0N" secondAttribute="bottom" constant="26.5" id="Bhi-iJ-E0K"/>
+                            <constraint firstItem="eUy-DI-yn6" firstAttribute="top" secondItem="wQU-tN-J0N" secondAttribute="bottom" constant="26.5" id="CLs-Gr-4ch"/>
+                            <constraint firstItem="G6g-EZ-nZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GZi-En-xjj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="G6g-EZ-nZu" secondAttribute="bottom" constant="16" id="LjA-Eh-wi3"/>
+                            <constraint firstItem="ax4-c5-BDl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P10-1g-PJK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wQU-tN-J0N" secondAttribute="trailing" constant="40" id="Sok-02-fZ1"/>
+                            <constraint firstItem="ax4-c5-BDl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="U4J-bB-yBp"/>
+                            <constraint firstItem="eUy-DI-yn6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="Uah-29-eDF"/>
+                            <constraint firstItem="ax4-c5-BDl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XoE-yS-JOq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G6g-EZ-nZu" secondAttribute="trailing" constant="16" id="baX-Rb-a1E"/>
+                            <constraint firstItem="4IM-gs-hDf" firstAttribute="top" secondItem="X1H-xp-8oo" secondAttribute="bottom" constant="83" id="g1r-3L-w5l"/>
+                            <constraint firstItem="eUy-DI-yn6" firstAttribute="top" secondItem="4IM-gs-hDf" secondAttribute="bottom" constant="70" id="hLk-pF-hdM"/>
+                            <constraint firstItem="ax4-c5-BDl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kHL-BV-hII"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eUy-DI-yn6" secondAttribute="trailing" constant="47" id="qCS-ac-bna"/>
+                            <constraint firstItem="wQU-tN-J0N" firstAttribute="top" secondItem="X1H-xp-8oo" secondAttribute="bottom" constant="144" id="uCV-Mr-5qD"/>
+                            <constraint firstItem="X1H-xp-8oo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="uM4-Et-Teg"/>
+                            <constraint firstItem="X1H-xp-8oo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ujv-v9-uNi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="ax4-c5-BDl" id="xti-CX-h79"/>
+                        <outlet property="swooshLogo" destination="ax4-c5-BDl" id="WUI-9x-Jle"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
