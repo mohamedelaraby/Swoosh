@@ -10,21 +10,59 @@ import UIKit
 
 class LeagueVC: UIViewController {
     
-/*----------------------[ @IBOutlets ]------------------------------------*/
+    var player: Player!
+    var desiredLeague: 
     
+    
+/*----------------------[ @IBOutlets ]------------------------------------*/
+    @IBOutlet weak var nextButton: BorderButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
+        player = Player()
+
     }
     
 /*----------------------[ @IBActions ]------------------------------------*/
     
     // [ @onNextTapped ] :- Open the skill screen
     @IBAction func onNextButtonTapped(_ sender: Any) {
-    
         performSegue(withIdentifier: "SkillVCSegue", sender: self)
     }
     
+    @IBAction func onMensButtonTapped( _ sender: Any){
+        selectLeague(leagueType: "mens")
+    }
+    
+    @IBAction func onWomensButtonTapped(_ sender :Any){
+        selectLeague(leagueType: "womens")
+    }
+    
+    @IBAction func OnCoedButtonTapped(_ sender: Any){
+        selectLeague(leagueType: "cooed")
+    }
+
+//    override futnc prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let skillVC = segue.destination as! SkillVC {
+//
+//        }
+//    }
+//
+//
+    /*----------------------[ @Custom Actions ]------------------------------------*/
+
+    // @selectLeague :- Set the player league && Enable the NEXT button
+    private func selectLeague(leagueType: String){
+        player.desiredLeague = leagueType
+        nextButton.isEnabled = true
+    }
+    
+    
+    
+    
+    
+    
+    ///..../.[ LeagueViewController End brackets ]..
 }
