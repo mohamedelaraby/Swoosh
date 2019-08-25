@@ -8,25 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
-    /*---[ @IBOutlets ]----*/
+/*----------------------[ @IBOutlets ]------------------------------------*/
     @IBOutlet weak var swooshLogo: UIImageView!
     @IBOutlet weak var backgroundImage: UIImageView!
     
-    
+    /** ----[ ViewDidLoad ] -----------*/
     override func viewDidLoad() {
         super.viewDidLoad()
-     
     }
     
-    //MARK:- Return to the previous view controler
+/*----------------------[ @IBActions ]------------------------------------*/
+    //MARK:- Return to the previous view controller
     @IBAction func unwindFromSkillVC (unwindSegue: UIStoryboardSegue){
     }
 
     
-   
-    
+
+/*----------------------[ @Custom Actions ]------------------------------------*/
     //MARK:- Auto layout frames programmatically
     private func autoLayout(){
         //Auto center swoosh logo

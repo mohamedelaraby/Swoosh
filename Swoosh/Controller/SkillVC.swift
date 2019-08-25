@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SkillViewController: UIViewController {
+class SkillVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
