@@ -9,6 +9,15 @@
 import Foundation
 
 struct Player {
-    var desiredLeague: String?
-    var selectedLeagueLevel: String?
+    var desiredLeague: String!
+    var selectedLeagueLevel: String!
 }
+
+/*
+ 
+ [  data Type !  ] :- << Implictly Unwrapped optional >>
+ ::::use when you can guarantee variable will have data in it before used
+ [  data Type ?  ] :-  <<optional>>
+ :::: Use when there may or may not be data in the variable at runtime
+ 
+ */

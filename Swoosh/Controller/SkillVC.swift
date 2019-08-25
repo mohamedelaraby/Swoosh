@@ -10,6 +10,7 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+// @player :- Hold custom data inside it
     var player: Player!
     
     

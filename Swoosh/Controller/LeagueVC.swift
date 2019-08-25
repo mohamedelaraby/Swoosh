@@ -11,7 +11,6 @@ import UIKit
 class LeagueVC: UIViewController {
     
     var player: Player!
-    var desiredLeague: 
     
     
 /*----------------------[ @IBOutlets ]------------------------------------*/
@@ -44,13 +43,16 @@ class LeagueVC: UIViewController {
         selectLeague(leagueType: "cooed")
     }
 
-//    override futnc prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let skillVC = segue.destination as! SkillVC {
-//
-//        }
-//    }
-//
-//
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC {
+            
+            //Store data in skillVC.player object
+            skillVC.player = player
+
+        }
+    }
+
+
     /*----------------------[ @Custom Actions ]------------------------------------*/
 
     // @selectLeague :- Set the player league && Enable the NEXT button
