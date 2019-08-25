@@ -178,6 +178,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backButton" translatesAutoresizingMaskIntoConstraints="NO" id="nou-WW-3rk">
+                                <rect key="frame" x="16" y="30" width="28" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="AZ9-Jh-sGI"/>
+                                    <constraint firstAttribute="height" constant="27" id="tv7-SL-T1X"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -189,9 +196,11 @@
                             <constraint firstItem="Ecg-mL-sAp" firstAttribute="leading" secondItem="ZJN-DE-bUE" secondAttribute="leading" id="XVl-zS-DKH"/>
                             <constraint firstItem="qKx-9W-UDk" firstAttribute="centerX" secondItem="dMM-Fg-U2U" secondAttribute="centerX" id="YWL-by-4gz"/>
                             <constraint firstItem="0h8-3Y-UwK" firstAttribute="leading" secondItem="ZJN-DE-bUE" secondAttribute="leading" constant="16" id="ffC-7c-yPV"/>
+                            <constraint firstItem="nou-WW-3rk" firstAttribute="leading" secondItem="ZJN-DE-bUE" secondAttribute="leading" constant="16" id="khs-au-d5g"/>
                             <constraint firstItem="ZJN-DE-bUE" firstAttribute="trailing" secondItem="0h8-3Y-UwK" secondAttribute="trailing" constant="16" id="omh-ey-Cw4"/>
                             <constraint firstItem="ZJN-DE-bUE" firstAttribute="trailing" secondItem="nsH-hT-exb" secondAttribute="trailing" constant="16" id="p46-ZD-wS9"/>
                             <constraint firstItem="Ecg-mL-sAp" firstAttribute="top" secondItem="dMM-Fg-U2U" secondAttribute="top" id="qq2-jU-SiI"/>
+                            <constraint firstItem="nou-WW-3rk" firstAttribute="top" secondItem="ZJN-DE-bUE" secondAttribute="top" constant="10" id="rgl-m3-7ld"/>
                             <constraint firstItem="qKx-9W-UDk" firstAttribute="top" secondItem="ZJN-DE-bUE" secondAttribute="top" constant="20" id="ySd-Ve-N96"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZJN-DE-bUE"/>
@@ -290,6 +299,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backButton" width="29" height="24"/>
         <image name="beginnerBallerBG" width="414" height="736"/>
         <image name="desiredLeagueBG" width="414" height="736"/>
         <image name="swooshLogo" width="119" height="20"/>
